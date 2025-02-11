@@ -1,0 +1,51 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aptos-labs/wallet-adapter-ant-design": "^3.0.23",
+    "@aptos-labs/wallet-adapter-react": "^3.7.9",
+    "@mizuwallet-sdk/core": "^1.4.0",
+    "@telegram-apps/bridge": "^1.9.2",
+    "@testing-library/react": "^16.1.0",
+    "antd": "5.1.4",
+    "aptos": "^1.21.0",
+    "cra-template-typescript": "1.2.0",
+    "graphql": "^16.10.0",
+    "graphql-request": "^7.1.2",
+    "petra-plugin-wallet-adapter": "^0.4.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.3",
+    "typescript": "^5.7.3",
+    "web-vitals": "^4.2.4"
+  }
+}
